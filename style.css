@@ -10,6 +10,7 @@
   justify-content: space-around;
   margin-left: auto;
   margin-right: auto;
+  grid-gap: 1px;
 }
 #flexwrap {
   display: flex;
@@ -82,9 +83,10 @@
   height: auto;
   grid-column: 1 / span 1;
   z-index: 1;
-  grid-row: 1 / span 3;
+  grid-row: 1 / span 2;
   padding-left: 5vw;
   margin-top: 5vh;
+  padding-bottom: 0px;
 }
 
 header {
@@ -94,7 +96,6 @@ header {
   grid-row: 4 / span 2;
   font-weight: 500;
   font-size: 5rem;
-  z-index: 5;
 }
 h3 {
   z-index: 2;
@@ -106,15 +107,16 @@ h3 {
   justify-content: space-around;
   grid-row: 1;
   margin-right: 6vw;
+  margin-left: 4vw;
 }
 h4 {
   font-size: 0.8rem;
   font-weight: 300;
   grid-row: 2;
-
-  grid-column: 3;
+  margin-right: 6vw;
+  grid-column: 1;
   align-self: flex-end;
-  z-index: 2;
+  max-width: 130px;
   padding-left: 5vw;
 }
 .split {
